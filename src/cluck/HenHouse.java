@@ -1,6 +1,6 @@
 package cluck;
 
 public interface HenHouse {
-	 public java.util.List<Chicken> getChickens(); 
-		
+	 public java.util.List<Chicken> getChickens();
+	 	
 }

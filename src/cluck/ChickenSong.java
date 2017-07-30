@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.courses.Courses;
-
 
 
 public class ChickenSong {
@@ -19,11 +17,11 @@ public class ChickenSong {
 			   
 				chic.addAll(Arrays.asList(new Chicken[] {chick,chick1}));
 				
-			HenHouse house = ()->{
+			HenHouse house = ()->chic;
 			//	return null;
-				return chic;
+			//	return chic;
 				
-			};
+			
 				Chicken chicken = house.getChickens().get(0); 
 	     for(int i=0; i<house.getChickens().size();  
 			chicken = house.getChickens().get(i++)) {  
